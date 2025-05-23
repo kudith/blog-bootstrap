@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Saya</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Blog Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-sm btn-primary nav-btn" href="#">Berlangganan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Header Section -->
+    <header class="hero-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <span class="subheading">Blog Modern & Inspiratif</span>
+                    <h1 class="display-3">Selamat Datang di Blog Saya</h1>
+                    <p class="lead">Temukan artikel terbaru dan topik yang sedang tren dalam dunia teknologi dan desain</p>
+                    <div class="header-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Cari artikel...">
+                            <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content - 2 Column Layout -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content Column (8 columns wide) -->
+                <div class="col-lg-8">
+                    <!-- Featured Article -->
+                    <div class="featured-article">
+                        <div class="category-badge">Unggulan</div>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20200629091335%2Fv5home.png&f=1&nofb=1&ipt=5a505ce263f6c988d2608cf231459f16981a90f502e978cc55836fc0bc9c54f9" alt="Gambar Unggulan" class="img-fluid mb-3">
+                        <div class="article-meta">
+                            <span class="meta-date"><i class="bi bi-calendar-event me-2"></i>20 Mei 2025</span>
+                            <span class="meta-author"><i class="bi bi-person me-2"></i>Admin</span>
+                            <span class="meta-comments"><i class="bi bi-chat-dots me-2"></i>28 Komentar</span>
+                        </div>
+                        <h2 class="article-title"><a href="article.html">Cara Menguasai Bootstrap di Tahun 2025</a></h2>
+                        <p class="lead">Bootstrap terus berkembang sebagai framework CSS terpopuler dengan fitur-fitur canggih yang memudahkan pengembangan web modern. Mari pelajari cara menguasainya.</p>
+                        <p>Framework Bootstrap telah mengalami banyak pembaruan signifikan dalam beberapa tahun terakhir. Dengan komponen yang semakin beragam dan performa yang lebih baik, Bootstrap menjadi pilihan utama para pengembang web. Artikel ini akan membahas fitur-fitur terbaru, strategi implementasi, dan teknik optimasi yang perlu Anda kuasai untuk menjadi ahli Bootstrap di tahun 2025.</p>
+                        <a href="article.html" class="btn btn-primary">Baca Selengkapnya <i class="bi bi-arrow-right ms-2"></i></a>
+                    </div>
+
+                    <div class="section-divider">
+                        <span>Artikel Terbaru</span>
+                    </div>
+
+                    <!-- Article Grid - 2 Columns within the Main Column -->
+                    <div class="row">
+                        <!-- Article 1 -->
+                        <div class="col-md-6 mb-4">
+                            <article class="card article-card h-100">
+                                <div class="card-img-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1558174685-430919a96c8d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Gambar Artikel">
+                                    <div class="card-img-overlay">
+                                        <span class="category-label">Desain</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="article-meta">
+                                        <span class="meta-date"><i class="bi bi-calendar-event me-1"></i>15 Mei 2025</span>
+                                    </div>
+                                    <h3 class="card-title"><a href="article.html">Tren Pengembangan Web yang Wajib Diketahui</a></h3>
+                                    <p class="card-text">Beberapa contoh teks singkat untuk melengkapi judul artikel dan menjadi bagian utama dari konten kartu.</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="author-info">
+                                            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-circle avatar" alt="Author">
+                                            <span>Agus S.</span>
+                                        </div>
+                                        <a href="article.html" class="read-more">Baca <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <!-- Article 2 -->
+                        <div class="col-md-6 mb-4">
+                            <article class="card article-card h-100">
+                                <div class="card-img-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2Vic2l0ZSUyMGRlc2lnbnxlbnwwfDB8MHx8fDA%3D" class="card-img-top" alt="Gambar Artikel">
+                                    <div class="card-img-overlay">
+                                        <span class="category-label">Tutorial</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="article-meta">
+                                        <span class="meta-date"><i class="bi bi-calendar-event me-1"></i>10 Mei 2025</span>
+                                    </div>
+                                    <h3 class="card-title"><a href="article.html">Tips Desain Responsif untuk Pengalaman Pengguna Optimal</a></h3>
+                                    <p class="card-text">Beberapa contoh teks singkat untuk melengkapi judul artikel dan menjadi bagian utama dari konten kartu.</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="author-info">
+                                            <img src="" class="rounded-circle avatar" alt="Author">
+                                            <span>Budi W.</span>
+                                        </div>
+                                        <a href="article.html" class="read-more">Baca <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <!-- Article 3 -->
+                        <div class="col-md-6 mb-4">
+                            <article class="card article-card h-100">
+                                <div class="card-img-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1610986603166-f78428624e76?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Gambar Artikel">
+                                    <div class="card-img-overlay">
+                                        <span class="category-label">CSS</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="article-meta">
+                                        <span class="meta-date"><i class="bi bi-calendar-event me-1"></i>5 Mei 2025</span>
+                                    </div>
+                                    <h3 class="card-title"><a href="article.html">CSS Grid vs Flexbox: Kapan Harus Menggunakan Masing-masing?</a></h3>
+                                    <p class="card-text">Beberapa contoh teks singkat untuk melengkapi judul artikel dan menjadi bagian utama dari konten kartu.</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="author-info">
+                                            <img src="https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3NzfGVufDB8MHwwfHx8MA%3D%3D" class="rounded-circle avatar" alt="Author">
+                                            <span>Citra D.</span>
+                                        </div>
+                                        <a href="article.html" class="read-more">Baca <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <!-- Article 4 -->
+                        <div class="col-md-6 mb-4">
+                            <article class="card article-card h-100">
+                                <div class="card-img-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Gambar Artikel">
+                                    <div class="card-img-overlay">
+                                        <span class="category-label">JavaScript</span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="article-meta">
+                                        <span class="meta-date"><i class="bi bi-calendar-event me-1"></i>1 Mei 2025</span>
+                                    </div>
+                                    <h3 class="card-title"><a href="article.html">Perbandingan Framework JavaScript Modern di 2025</a></h3>
+                                    <p class="card-text">Beberapa contoh teks singkat untuk melengkapi judul artikel dan menjadi bagian utama dari konten kartu.</p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="author-info">
+                                            <img src="https://via.placeholder.com/40x40" class="rounded-circle avatar" alt="Author">
+                                            <span>Deni F.</span>
+                                        </div>
+                                        <a href="article.html" class="read-more">Baca <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Page navigation" class="mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-chevron-left me-1"></i> Sebelumnya</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Selanjutnya <i class="bi bi-chevron-right ms-1"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Sidebar Column (4 columns wide) -->
+                <div class="col-lg-4">
+                    <!-- About Author Widget -->
+                    <div class="sidebar-widget author-widget">
+                        <div class="author-header">
+                            <img src="https://via.placeholder.com/150x150" alt="Author" class="rounded-circle">
+                            <h4>Admin Blog</h4>
+                            <p class="author-bio">Seorang penggemar teknologi dan desain web yang berbagi pengetahuan dan pengalaman melalui blog ini.</p>
+                            <div class="social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Search Widget -->
+                    <div class="sidebar-widget search-widget">
+                        <h4 class="widget-title">Pencarian</h4>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Cari artikel...">
+                            <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget categories-widget">
+                        <h4 class="widget-title">Kategori</h4>
+                        <ul class="category-list">
+                            <li><a href="#"><span>Desain Web</span> <span class="count">12</span></a></li>
+                            <li><a href="#"><span>HTML & CSS</span> <span class="count">9</span></a></li>
+                            <li><a href="#"><span>JavaScript</span> <span class="count">15</span></a></li>
+                            <li><a href="#"><span>Bootstrap</span> <span class="count">7</span></a></li>
+                            <li><a href="#"><span>Tutorial</span> <span class="count">23</span></a></li>
+                            <li><a href="#"><span>Pengembangan Web</span> <span class="count">18</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Popular Posts Widget -->
+                    <div class="sidebar-widget popular-posts">
+                        <h4 class="widget-title">Artikel Populer</h4>
+                        <div class="popular-posts-list">
+                            <div class="popular-post">
+                                <div class="post-image">
+                                    <img src="https://via.placeholder.com/100x70" alt="Post thumbnail">
+                                    <span class="post-number">01</span>
+                                </div>
+                                <div class="post-info">
+                                    <h5><a href="article.html">10 Trik CSS Terbaik yang Harus Kamu Tahu</a></h5>
+                                    <span class="post-date"><i class="bi bi-calendar-event me-1"></i>18 Mei 2025</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="post-image">
+                                    <img src="https://via.placeholder.com/100x70" alt="Post thumbnail">
+                                    <span class="post-number">02</span>
+                                </div>
+                                <div class="post-info">
+                                    <h5><a href="article.html">Masa Depan Pengembangan Web</a></h5>
+                                    <span class="post-date"><i class="bi bi-calendar-event me-1"></i>14 Mei 2025</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="post-image">
+                                    <img src="https://via.placeholder.com/100x70" alt="Post thumbnail">
+                                    <span class="post-number">03</span>
+                                </div>
+                                <div class="post-info">
+                                    <h5><a href="article.html">Membangun Website yang Aksesibel</a></h5>
+                                    <span class="post-date"><i class="bi bi-calendar-event me-1"></i>8 Mei 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subscribe Widget -->
+                    <div class="sidebar-widget subscribe-widget">
+                        <h4 class="widget-title">Berlangganan Newsletter</h4>
+                        <p>Dapatkan artikel terbaru langsung ke email Anda</p>
+                        <form class="subscribe-form">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nama Anda">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control" placeholder="Email Anda">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Berlangganan <i class="bi bi-send ms-2"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Tags Widget -->
+                    <div class="sidebar-widget tags-widget">
+                        <h4 class="widget-title">Tag</h4>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag">Web</a>
+                            <a href="#" class="tag">Desain</a>
+                            <a href="#" class="tag">HTML</a>
+                            <a href="#" class="tag">CSS</a>
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">Bootstrap</a>
+                            <a href="#" class="tag">Responsif</a>
+                            <a href="#" class="tag">Tutorial</a>
+                            <a href="#" class="tag">UX/UI</a>
+                            <a href="#" class="tag">Mobile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Ikuti Update Terbaru</h2>
+                    <p>Berlangganan newsletter kami untuk mendapatkan artikel terbaru, tips, dan trik langsung ke inbox Anda</p>
+                    <div class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Masukkan email Anda">
+                            <button class="btn btn-primary" type="button">Berlangganan <i class="bi bi-send ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="footer-heading">Tentang Blog Saya</h3>
+                        <p>Blog Saya adalah tempat untuk berbagi pengetahuan dan pengalaman tentang pengembangan web, desain, teknologi, dan topik menarik lainnya.</p>
+                        <div class="social-links mt-4">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                        <h3 class="footer-heading">Navigasi</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="#">Tentang</a></li>
+                            <li><a href="#">Artikel</a></li>
+                            <li><a href="#">Kategori</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                        <h3 class="footer-heading">Kategori</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">Bootstrap</a></li>
+                            <li><a href="#">UX/UI Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3 class="footer-heading">Hubungi Kami</h3>
+                        <ul class="footer-contact">
+                            <li><i class="bi bi-geo-alt"></i> Jl. Contoh No. 123, Jakarta, Indonesia</li>
+                            <li><i class="bi bi-envelope"></i> info@blogsaya.com</li>
+                            <li><i class="bi bi-telephone"></i> +62 812 3456 7890</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-md-0">&copy; 2025 Blog Saya. Seluruh hak cipta.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Kebijakan Privasi</a></li>
+                            <li><a href="#">Syarat & Ketentuan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Bootstrap JS with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Back to top button functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            var backToTop = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTop.style.display = 'flex';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            });
+            
+            backToTop.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            });
+        });
+    </script>
+</body>
+</html>
